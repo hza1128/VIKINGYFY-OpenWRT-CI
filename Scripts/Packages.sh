@@ -33,6 +33,7 @@ if [[ $WRT_URL == *"immortalwrt"* ]]; then
 	#UPDATE_PACKAGE "homeproxy" "muink/homeproxy" "dev"
 	UPDATE_PACKAGE "homeproxy" "immortalwrt/homeproxy" "dev"
         UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main"
+	UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev"
 fi
 
 #更新软件包版本
