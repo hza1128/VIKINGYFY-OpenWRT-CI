@@ -148,6 +148,7 @@ jobs:
           
       - SSH_ACTION:
         description: 'SSH'
+        run: |
           required: true
           default: 'true'          
 
