@@ -146,12 +146,6 @@ jobs:
             echo "caches cleanup done!"
           fi
           
-      - SSH_ACTION:
-        description: 'SSH'
-        run: |
-          required: true
-          default: 'true'          
-
       - name: Update Feeds
         run: |
           cd ./wrt/
