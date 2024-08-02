@@ -146,7 +146,7 @@ jobs:
             echo "caches cleanup done!"
           fi
           
-      SSH_ACTION:
+      - SSH_ACTION:
         description: 'SSH远程配置固件'
         required: true
         default: 'true'          
