@@ -148,8 +148,8 @@ jobs:
           
       - SSH_ACTION:
         description: 'SSH远程配置固件'
-        required: true
-        default: 'true'          
+          required: true
+          default: 'true'          
 
       - name: Update Feeds
         run: |
