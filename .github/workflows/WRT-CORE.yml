@@ -147,7 +147,7 @@ jobs:
           fi
           
       - SSH_ACTION:
-        description: 'SSH远程配置固件'
+        description: 'SSH'
           required: true
           default: 'true'          
 
